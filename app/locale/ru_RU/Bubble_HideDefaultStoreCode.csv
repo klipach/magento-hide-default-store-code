@@ -1,0 +1,2 @@
+"Hide Default Store Code","Скрыть код магазина по умолчанию"
+"If enabled, default store code will be hidden from URLs<br>http://www.example.com/default/<br>becomes<br>http://www.example.com/", "Если включено, код магазина по умолчанию будет скрыт из URL-адресов <br> http://www.example.com/default/ <br> станет <br> http://www.example.com/"

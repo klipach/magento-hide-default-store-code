@@ -32,6 +32,17 @@
             </controller_front_init_before>
         </events>
     </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Bubble_HideDefaultStoreCode>
+                    <files>
+                        <default>Bubble_HideDefaultStoreCode.csv</default>
+                    </files>
+                </Bubble_HideDefaultStoreCode>
+            </modules>
+        </translate>
+    </adminhtml>
     <default>
         <web>
             <url>

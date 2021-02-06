@@ -14,23 +14,14 @@ http://www.example.com/shoes.html
 
 ### Magento CE 1.8.x, 1.9.x
 
-Install with [modgit](https://github.com/jreinke/modgit):
+Install with composer:
 
-    $ cd /path/to/magento
-    $ modgit init
-    $ modgit clone hide_store https://github.com/jreinke/magento-hide-default-store-code.git
-
-or download package manually:
-
-* Download latest version [here](https://github.com/jreinke/magento-hide-default-store-code/archive/master.zip)
-* Unzip in Magento root folder
-* Clear cache
-* Logout from admin then login again to access module configuration
+```bash
+composer require klipach/magento-hide-default-store-code
+```
 
 ## Configuration
 
 * Go to "System > Configuration > Web > Url Options"
 * Enable both "Add Store Code to Urls" and "Hide Default Store Code" options
 * Clear cache
-
-Other Magento extensions available on [www.bubbleshop.net](https://www.bubbleshop.net/)

@@ -1,0 +1,16 @@
+{
+  "name": "klipach/magento-hide-default-store-code",
+  "type": "magento-module",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      ["app/code/community/Bubble/HideDefaultStoreCode", "app/code/community/Bubble/HideDefaultStoreCode"],
+      ["app/etc/modules/Bubble_HideDefaultStoreCode.xml", "app/etc/modules/Bubble_HideDefaultStoreCode.xml"],
+      ["app/locale/en_US/Bubble_HideDefaultStoreCode.csv", "app/locale/en_US/Bubble_HideDefaultStoreCode.csv"],
+      ["app/locale/uk_UA/Bubble_HideDefaultStoreCode.csv", "app/locale/uk_UA/Bubble_HideDefaultStoreCode.csv"],
+      ["app/locale/ru_RU/Bubble_HideDefaultStoreCode.csv", "app/locale/ru_RU/Bubble_HideDefaultStoreCode.csv"]
+    ]
+  }
+}
